@@ -48,3 +48,14 @@
     display: flex;
     align-items: center;
 }
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    /* align-items: center; */
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+/* 33 :45 minute pe choood k ja raha hu  */
