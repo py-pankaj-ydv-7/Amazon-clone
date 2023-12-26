@@ -9,10 +9,13 @@
     background-color: #0f1111;
     color: white;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-evenly;
+    
 }
-
+.border{
+    border-radius: 2px solid white;
+}
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -21,4 +24,23 @@
     background-image: url("/images/amazon_logo.png");
     background-size: cover;
     height: 50px;
-    width: 100%;}
+    width: 100px;
+}
+    
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;}
+   
+
+.search-input{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: white; */
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
